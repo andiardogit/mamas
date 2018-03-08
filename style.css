@@ -1628,7 +1628,11 @@ textarea:focus {
 .nav-tabs > li.active > a:hover {
   background: #fff none repeat scroll 0 0;
   border: 0 none;
-  color: #433d72;
+  color: #fc49aa;
+}
+.nav-tabs > li > a:hover img{
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .nav-tabs > li {
@@ -1670,8 +1674,8 @@ textarea:focus {
 }
 
 .nav-tabs > li > a img {
-  filter: brightness(1%) invert(0);
-  -webkit-filter: brightness(1%) invert(0);
+  /*filter: brightness(50%) invert(1);
+  -webkit-filter: brightness(50%) invert(1);*/
   left: 0;
   position: absolute;
   top: 0;
@@ -1691,7 +1695,7 @@ textarea:focus {
 }
 
 .feature-text > span {
-  background: #6158a4 none repeat scroll 0 0;
+  background: #ffcff4 none repeat scroll 0 0;
   border-radius: 50%;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.59);
   display: inline-block;
