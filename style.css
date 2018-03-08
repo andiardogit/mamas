@@ -77,6 +77,7 @@ h5,
 h6 {
   font-weight: 500;
   margin: 0;
+    margin-bottom: 10px;
   padding: 0;
   color: #303030
 }
@@ -2364,8 +2365,9 @@ textarea:focus {
 
 .social-icon > a {
   border: 1px solid #c9cacc;
+    background-color: #fff;
   border-radius: 50%;
-  color: #fffefe;
+  color: #000;
   display: inline-block;
   font-size: 13px;
   height: 32px;
