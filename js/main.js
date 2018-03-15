@@ -32,8 +32,10 @@
 		var scroll = windows.scrollTop();
 		if (scroll < 245) {
 			stick.removeClass("sticky");
+            $('.lang').fadeIn('slow');
 		}else{
 			stick.addClass("sticky");
+            $('.lang').hide();
 		}
 	}); 
     

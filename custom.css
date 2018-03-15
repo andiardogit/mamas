@@ -15,3 +15,11 @@
 .banner-content .title-sub p{
   color: #0b0049;
 }
+.rel{position: relative;}
+.lang{
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    z-index: 10;
+}
+.lang ul li img{margin-right: 5px;}
