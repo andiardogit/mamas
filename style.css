@@ -1918,7 +1918,18 @@ textarea:focus {
   color: #303030;
   display: block;
   line-height: 30px;
+    text-align: left;
+    padding:0 30px;
+    position: relative;
 }
+.price-list > span i.fa{
+    font-size: 18px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.price-list > span i.fa-check{color: #28bb15;}
+.price-list > span i.fa-times{color: #999;}
 
 .price-title {
   padding: 20px 0 36px;
